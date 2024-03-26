@@ -1,5 +1,5 @@
 # Joshuah Rodriguez's Portfolio!
-![Canva](https://www.canva.com/design/DAGAoAOvoj8/-RJFkk789JoDpDz3W5e0Og/edit?utm_content=DAGAoAOvoj8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton.gif)
+![Imgur](https://imgur.com/kN2ygv1.gif)
 
 ## Some important things to consider in the analysis process: 
 - Metrics need to be clearly defined
