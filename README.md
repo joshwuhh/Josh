@@ -32,4 +32,7 @@ Table Of Contents:
 - Acknowledgements
 - Contact Info
 
+  Global price of coffee from 1990 to 2024 ARABICA [https://fred.stlouisfed.org/series/PCOFFOTMUSDM]
+   Global price of coffee from 1990 to 2024 ROBUSTAS [https://fred.stlouisfed.org/series/PCOFFROBUSDM]
+   Consumer Price Index for All Urban Consumers: Coffee in U.S. City Average [https://fred.stlouisfed.org/series/CUSR0000SEFP01]
   
