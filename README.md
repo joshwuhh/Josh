@@ -1,6 +1,7 @@
 # Joshuah Rodriguez's Portfolio!
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/1iEUlfB" data-context="false" ><a href="//imgur.com/a/1iEUlfB"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-Some important things to consider in the analysis process: 
+![])https://imgur.com/a/1iEUlfB)
+
+## Some important things to consider in the analysis process: 
 - Metrics need to be clearly defined
 - Data findings should be organized ina logical step by step order
 - Explain any information about the data that the audience may not know
