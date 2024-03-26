@@ -19,12 +19,14 @@ Some characteristics to have :
 
   
 The read me of this project should have a 
-Title: 
-Table Of Contents: 
-- Info
+## Coffee ~
+Coffee is one of my true loves. I've always wondered about it's place in the global market and this research / case study is going to not only open my mind to it but also provide useful information for othe coffee lovers!
+ 
+##  Info
+
   
 ## Datasets Sourced from:
-* [https://www.ers.usda.gov/data-products/u-s-food-imports/]
+* US Food Imports [https://www.ers.usda.gov/data-products/u-s-food-imports/]
 * Global price of coffee from 1990 to 2024 ARABICA [https://fred.stlouisfed.org/series/PCOFFOTMUSDM]
 * Global price of coffee from 1990 to 2024 ROBUSTAS [https://fred.stlouisfed.org/series/PCOFFROBUSDM]
 * Consumer Price Index for All Urban Consumers: Coffee in U.S. City Average [https://fred.stlouisfed.org/series/CUSR0000SEFP01]
@@ -38,4 +40,3 @@ Table Of Contents:
 
 
   
-Annually publushed statistical summary of the value and volume of food imports coming into the US. Monthly report that provides national trade data including imports, exports, and balance of payments for goods and services. Statistics are also reported on a year-to-date basis. Data are continuously compiled and processed. Documents are collected as shipments arrive and depart, and are processed on a flow basis. The BEA uses the data to update U.S. balance of payments, gross domestic product, and national accounts. Other federal agencies use them for economic, financial, and trade policy analysis (such as import/export promotion studies and import/export price indexes). Private businesses and trade associations use them for domestic and overseas market analysis, and industry-, product-, and area-based business planning. Major print and electronic news media use them for general and business news reports
