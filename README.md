@@ -1,5 +1,5 @@
 # Joshuah Rodriguez's Portfolio!
-![Imgur](https://imgur.com/zVNGFV6)
+![Imgur](https://imgur.com/zVNGFV6.gif)
 
 ## Some important things to consider in the analysis process: 
 - Metrics need to be clearly defined
