@@ -1,3 +1,4 @@
+![Imgur](https://imgur.com/kN2ygv1.gif)
 ## Coffee ~
 Coffee is one of my true loves. I've always wondered about it's place in the global market and this research / case study is going to not only open my mind to it but also provide useful information for othe coffee lovers!
  
