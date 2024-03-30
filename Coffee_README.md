@@ -2,8 +2,8 @@
 ![Imgur](https://imgur.com/kN2ygv1.gif)
 
 # Table of Contents
-- (Info)[#Info]
-- (Data Sources)[#Datasets-Sourced-from:]
+- (Info)[#info]
+- (Data Sources)[#datasets-sourced-from:]
 - (Technology Stack)[#Tech-Stack]
 - (Improvement Opportunities)[#Oppurtunities-for-improvement-/-Notes]
 - (The Process)[#The-Process] 
