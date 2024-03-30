@@ -3,10 +3,10 @@
 
 # Table of Contents
 - [Info](#info)
-- (Data Sources)[#datasets-sourced-from:]
-- (Technology Stack)[#Tech-Stack]
-- (Improvement Opportunities)[#Oppurtunities-for-improvement-/-Notes]
-- (The Process)[#The-Process] 
+- [Data Sources](#datasets-sourced-from:)
+- [Technology Stack](#tech-stack)
+- [Improvement Opportunities](#oppurtunities-for-improvement-/-notes)
+- [The Process](#the-process) 
 
 ## Info
 A simple analysis of my true love, coffee. Employing my skills in exploratory data analysis with various tools like ggplot2 and tidyr. 
