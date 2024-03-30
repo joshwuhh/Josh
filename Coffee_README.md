@@ -3,7 +3,7 @@
 
 # Table of Contents
 - [Info](#info)
-- [Data Sources](#datasets-sourced-from:)
+- [Data Sources](#dataset-sources)
 - [Technology Stack](#tech-stack)
 - [Improvement Opportunities](#oppurtunities-for-improvement-/-notes)
 - [The Process](#the-process) 
@@ -18,7 +18,7 @@ How do changes in import volumes or costs influence consumer prices?
 
 Are there any seasonal or cyclical patterns in coffee prices? 
 
-## Datasets Sourced from:
+## Dataset Sources
 * US Food Imports [https://www.ers.usda.gov/data-products/u-s-food-imports/] (Metrics given in kilos) 
 * Global price of coffee from 1990 to 2024 ARABICA [https://fred.stlouisfed.org/series/PCOFFOTMUSDM]
 * Global price of coffee from 1990 to 2024 ROBUSTAS [https://fred.stlouisfed.org/series/PCOFFROBUSDM]
