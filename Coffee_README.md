@@ -48,27 +48,30 @@ Are there any seasonal or cyclical patterns in coffee prices?
 
 <!--- 
 
-3/24 spent time setting up my github repository for my project
 Compiled a few sources for data and began thinnking of what i could ask of the data sets obtained
 as well as how can I bring these together into one file? 
-
-How can I show off data scraping skills? 
-
-Harmonization of data is when you pull multiple sources of data into one set, creating a dataset that is then "harmonized" 
-
-3/26 Began learning more about github portfolio 
-designing elements for my readme and linkedin 
-
-
-3/27
-attempted load into big query 
-auto detect schema 
-encountered error loading, error seemingly with first column in import data
-linked github repo to postit cloud
 saved individual sheets from data XLS files as CSV files
 installed and loaded "readr" package into R studio
 changed necessary files to CSV format 
-began upload and read the CSV files in R studio .... took about 40 min in total 
+began upload and read the CSV files in R studio
+ 
+Noticed some things about the data set :
+- the Import dataset is seperated into three categories within a sheet 
+1/ Sum of unroasted beans, roasted and instant coffee. Includes coffee husks and skins. 
+
+2/ Includes coffee husks and skins and coffee substitutes. 
+
+3/ Includes chicory and other substitutes for coffee. 
+
+- Countries not listed in each section are assumed to not contribute to the imports in that category  
+- the data I see the column after the SOURCE column might be irrelevant, I remove this column  
+ 
+Realizing the table having these categories in one sheet causes issues for creating queries. Exported CSV , Working on separating the data into separate files in excel, then reuploading to work on them in POSIT 
+
+ 
+
+
+
 
 3/30
 Recapping. 4am suhoor, workout, game, nap, now focus work
