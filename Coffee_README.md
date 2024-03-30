@@ -19,8 +19,9 @@ Coffee is one of my true loves. I've always wondered about it's place in the glo
 - [Posit Cloud](https://posit.co/products/cloud/cloud/)
 
 ### Packages for data pre-processing
-
-
+- [Tidyr](https://tidyr.tidyverse.org/)
+- [Dplyr](https://dplyr.tidyverse.org/)
+- Both which are within the collection, [Tidyverse](https://www.tidyverse.org/)
 ### Data visualisation tool
 - [Ggplot2](https://ggplot2.tidyverse.org/)
 
