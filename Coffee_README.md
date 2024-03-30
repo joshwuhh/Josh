@@ -44,9 +44,7 @@ Are there any seasonal or cyclical patterns in coffee prices?
   
 <!--- ## Acknowledgements ---> 
 
-##The Process
-
-<!--- 
+## The Process
 
 Compiled a few sources for data and began thinnking of what i could ask of the data sets obtained
 as well as how can I bring these together into one file? 
@@ -56,7 +54,8 @@ changed necessary files to CSV format
 began upload and read the CSV files in R studio
  
 Noticed some things about the data set :
-- the Import dataset is seperated into three categories within a sheet 
+- the Import dataset is seperated into three categories within a sheet
+  
 1/ Sum of unroasted beans, roasted and instant coffee. Includes coffee husks and skins. 
 
 2/ Includes coffee husks and skins and coffee substitutes. 
@@ -67,16 +66,6 @@ Noticed some things about the data set :
 - the data I see the column after the SOURCE column might be irrelevant, I remove this column  
  
 Realizing the table having these categories in one sheet causes issues for creating queries. Exported CSV , Working on separating the data into separate files in excel, then reuploading to work on them in POSIT 
-
- 
-
-
-
-
-3/30
-Recapping. 4am suhoor, workout, game, nap, now focus work
-
----> 
 
 
 
