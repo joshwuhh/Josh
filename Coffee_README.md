@@ -16,6 +16,7 @@ Coffee is one of my true loves. I've always wondered about it's place in the glo
 ## Tech Stack
 
 ### Computing Platform
+- [Posit Cloud](https://posit.co/products/cloud/cloud/)
 
 ### Packages for data pre-processing
 
