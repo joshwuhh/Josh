@@ -1,3 +1,4 @@
+## Project Status: In progress 
 ![Imgur](https://imgur.com/kN2ygv1.gif)
 ## Coffee ~
 Coffee is one of my true loves. I've always wondered about it's place in the global market and this research / case study is going to not only open my mind to it but also provide useful information for othe coffee lovers!
@@ -27,7 +28,7 @@ Coffee is one of my true loves. I've always wondered about it's place in the glo
 
 
 <!--- Points to add ---> 
-## Project Status: In progress 
+
 ## Oppurtunities for improvement / Notes
 - Dataset for US imports needs sheets and data to be seperated and cleaned. This is being done then reuploaded into cloud IDE for analysis.
 - Visualizations to be exported / redone within tableau
