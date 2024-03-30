@@ -28,9 +28,12 @@ Coffee is one of my true loves. I've always wondered about it's place in the glo
 
 <!--- Points to add ---> 
 ## Project Status: In progress 
-## Oppurtunities for improvement
-## Acknowledgements
-## Contact Info
+## Oppurtunities for improvement / Notes
+- Dataset for US imports needs sheets and data to be seperated and cleaned. This is being done then reuploaded into cloud IDE for analysis.
+- Visualizations to be exported / redone within tableau
+-  
+<!--- ## Acknowledgements ---> 
+
 
 
   
