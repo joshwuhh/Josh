@@ -11,10 +11,20 @@ Coffee is one of my true loves. I've always wondered about it's place in the glo
 * Global price of coffee from 1990 to 2024 ROBUSTAS [https://fred.stlouisfed.org/series/PCOFFROBUSDM]
 * Consumer Price Index for All Urban Consumers: Coffee in U.S. City Average [https://fred.stlouisfed.org/series/CUSR0000SEFP01]
 
-## Points to add
+
+<!--- Further Develop --->
 ## Tech Stack
+
+### Computing Platform
+
+### Packages for data pre-processing
+
+
 ### Data visualisation tool
 - [Ggplot2](https://ggplot2.tidyverse.org/)
+
+
+<!--- Points to add ---> 
 ## Project Status: In progress 
 ## Oppurtunities for improvement
 ## Acknowledgements
