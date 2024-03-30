@@ -12,11 +12,11 @@ Coffee is one of my true loves. I've always wondered about it's place in the glo
 * Consumer Price Index for All Urban Consumers: Coffee in U.S. City Average [https://fred.stlouisfed.org/series/CUSR0000SEFP01]
 
 ## Points to add
-- Tech Stack
-- Project Status: In progress 
-- Oppurtunities for improvement
-- Acknowledgements
-- Contact Info
+## Tech Stack
+## Project Status: In progress 
+## Oppurtunities for improvement
+## Acknowledgements
+## Contact Info
 
 
   
