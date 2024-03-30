@@ -7,7 +7,7 @@ Coffee is one of my true loves. I've always wondered about it's place in the glo
 
   
 ## Datasets Sourced from:
-* US Food Imports [https://www.ers.usda.gov/data-products/u-s-food-imports/]
+* US Food Imports [https://www.ers.usda.gov/data-products/u-s-food-imports/] (Metrics given in kilos) 
 * Global price of coffee from 1990 to 2024 ARABICA [https://fred.stlouisfed.org/series/PCOFFOTMUSDM]
 * Global price of coffee from 1990 to 2024 ROBUSTAS [https://fred.stlouisfed.org/series/PCOFFROBUSDM]
 * Consumer Price Index for All Urban Consumers: Coffee in U.S. City Average [https://fred.stlouisfed.org/series/CUSR0000SEFP01]
