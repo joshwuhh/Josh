@@ -31,7 +31,10 @@ Coffee is one of my true loves. I've always wondered about it's place in the glo
 ## Oppurtunities for improvement / Notes
 - Dataset for US imports needs sheets and data to be seperated and cleaned. This is being done then reuploaded into cloud IDE for analysis.
 - Visualizations to be exported / redone within tableau
--  
+- adding more data from more other sources
+- adding more analyses by region or country level
+- extending the analysis not only to coffee, but other drink products within dataset
+  
 <!--- ## Acknowledgements ---> 
 
 
