@@ -52,7 +52,11 @@ Are there any seasonal or cyclical patterns in coffee prices?
 <!--- ## Acknowledgements ---> 
 
 ## Understanding Requirements
+KPI Overview: Display an overview of total quantity or value of import for countries this year and previous years
 
+Trends: Identify year and countries with highest exports to US and make them easy to recognize 
+
+Comparison: Compare exports for each category of coffee export
 
 
 ## Building Data Source 
@@ -91,6 +95,12 @@ Verified Date Types are the same between tables
 All tables are facts. Put together the data model into Tableau Public. 
 
 ## Building Charts
+
+Dashboard to compare year performance should be dynamic in that it should allow user to historical data that offers them flexibility to select any given year
+
+As well it might be useful to allow user to select the category for which the chart is presenting data for. 
+
+This can be done by creating a **List Parameter** within Tableau 
 
 
 
