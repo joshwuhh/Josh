@@ -51,9 +51,9 @@ Are there any seasonal or cyclical patterns in coffee prices?
 <!--- ## Acknowledgements ---> 
 
 ## The Process
-Compiled a few sources for data and began thinnking of what i could ask of the data sets obtained
+Compiled a few sources for data and began thinking of what i could ask of the data sets obtained
 as well as how can I bring these together into one file? 
-saved individual sheets from data XLS files as CSV files
+
 installed and loaded "readr" package into R studio
 changed necessary files to CSV format 
 began upload and read the CSV files in R studio using the Readr package
@@ -72,6 +72,18 @@ Noticed some things about the data set :
 - the data I see the column after the SOURCE column might be irrelevant, I remove this column  
  
 Realizing the table having these categories in one sheet causes issues for creating queries. Exported CSV , Working on separating the data into separate files in excel, then reuploading to work on them in POSIT 
+
+Data in Excel is cleaned as it seems to have been prepared for end user. 
+Removed descriptive cells that stated what kind of values were used.
+
+Categories seperated into seperare sheets, then data is transposed so that the YEAR is in a column and each countries import value / weight is in rows. 
+
+Might be useful to seperate each country into individual years but this can likely be done in notebook / Tableau 
+
+
+
+
+
 
 
 
