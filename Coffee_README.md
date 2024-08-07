@@ -102,7 +102,9 @@ Dashboard to compare year performance should be dynamic in that it should allow 
 
 As well it might be useful to allow user to select the category for which the chart is presenting data for. 
 
-This can be done by creating a **List Parameter** within Tableau 
+This can be done by creating a **List Parameter** within Tableau with **Calculated Fields**
+
+I began this process but need to figure out why my data is not able to be shown in table format. 
 
 
 
