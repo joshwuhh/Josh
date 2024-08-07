@@ -6,7 +6,9 @@
 - [Data Sources](#dataset-sources)
 - [Technology Stack](#tech-stack)
 - [Improvement Opportunities](#oppurtunities-for-improvement-/-notes)
-- [The Process](#the-process) 
+- [Understanding Requirements](#understanding-requirements) 
+- [Building the Data](#building-data-source)
+- [Building the Charts](#building-charts)
 
 ## Purpose
 The purpose of this dashboard will be to provide an overview of metrics and trends to analyze year-to-year growth of given countries exports to the US. 
