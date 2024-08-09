@@ -156,3 +156,17 @@ Now were going to created a field to display the difference between current and 
 
 
   ## Building The Charts
+The chart mockup is composed of two parts, the BAN where we have our big numbers and under it the SPARKLINE
+
+Our option is make seperate sheets for each section or one sheet for everything, we'll do the former
+
+For our BAN we need the CY and % Diff as Details
+We edit the sheet title and Insert the two fields
+
+We then format the display of our title to excentuate the values properly and change the format of our displayed KPI's to match our goal
+We now want an icon to show if exports are going up or down 
+We do this by editing the % Difference Number format as the following custom: ▲ 0.00%; ▼ -0.00%;
+
+
+...
+
