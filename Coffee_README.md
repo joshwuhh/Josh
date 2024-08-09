@@ -9,6 +9,7 @@
 - [Understanding Requirements](#understanding-requirements) 
 - [Building the Data](#building-data-source)
 - [Building Fields and Parameters](#building-fields-and-parameters)
+- [Building The Charts](#building-the-charts)
 
 ## Purpose
 The purpose of this dashboard will be to provide an overview of metrics and trends to analyze year-to-year growth of given countries exports to the US. 
@@ -154,4 +155,4 @@ Now were going to created a field to display the difference between current and 
   Adding this in and removing total Brazil exports leaves us a chart with CY, PY and % Difference
 
 
-  ## B
+  ## Building The Charts
