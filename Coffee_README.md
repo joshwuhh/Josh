@@ -8,7 +8,7 @@
 - [Improvement Opportunities](#oppurtunities-for-improvement-/-notes)
 - [Understanding Requirements](#understanding-requirements) 
 - [Building the Data](#building-data-source)
-- [Building the Charts](#building-charts)
+- [Building Fields and Parameters](#building-fields-and-parameters)
 
 ## Purpose
 The purpose of this dashboard will be to provide an overview of metrics and trends to analyze year-to-year growth of given countries exports to the US. 
@@ -96,7 +96,7 @@ Might be useful to seperate each country into individual years but this can like
 Verified Date Types are the same between tables
 All tables are facts. Put together the data model into Tableau Public. 
 
-## Building Charts
+## Building Fields and Parameters
 
 Dashboard to compare year performance should be dynamic in that it should allow user to historical data that offers them flexibility to select any given year
 
@@ -139,5 +139,19 @@ Now to have the list selection effect our data, we have to link it to the calcul
 
 Going back to our Calculated fields we replace the STATIC VALUE year that we first set, and change it to the Select Year parameter so that what is displayed will change depending on user selection.. 
 
+We do the same for our PY field, except we set it to **[Select Year] - 1** 
 
+**This fufills another requirement for having the dashboard be dynamic**
+
+Now were going to created a field to display the difference between current and previous years exports as a percentage 
+
+  New Field Name: % Difference Exports
   
+  Code: ((SUM[CY Unroasted Export]) - (SUM(PY Unroasted Export))) / (SUM(PY Unroasted Export))
+  
+  Now that this is made we right click our field and change the default properties, Number format to % and One decimal place
+
+  Adding this in and removing total Brazil exports leaves us a chart with CY, PY and % Difference
+
+
+  ## B
