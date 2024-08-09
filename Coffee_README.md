@@ -54,7 +54,7 @@ Are there any seasonal or cyclical patterns in coffee prices?
 <!--- ## Acknowledgements ---> 
 
 ## Understanding Requirements
-KPI Overview: Display an overview of total quantity or value of import for countries this year and previous years
+KPI Overview: **Display an overview of total quantity or value of import for countries this year and previous years**
 
 Trends: Identify year and countries with highest exports to US and make them easy to recognize 
 
@@ -106,14 +106,38 @@ This can be done by creating a **List Parameter** within Tableau with **Calculat
 
 I began this process but need to figure out why my data is not able to be shown in table format. 
 
+...
+
+
   _This was because the field for Year was NOT formatted as a DATE, corrected_
 
-  
+Now to fufill the first requirment of displaying Year comparison 
+So we have to display the sales only for the last year, **To do this we create a calculated field**
 
 
+In the data panel we click the drop down and click calculated field
+
+New field name: CY Unroasted Export
+
+Code: IF YEAR([Year (Coffee beans, unroasted (!M))]) = 2022 THEN [Brazil] 
+      END
+This will show the exports for BRAZIL's unroasted beans given it is for the latest year 
+
+Then we do similar for the previous year. 
+
+With these two fields we now want to make it DYNAMIC using parameters
+
+We make one more cacluated field that just displays the unroasted year 
+  YEAR([Year (Coffee beans, unroasted (!M)))
+
+and use this for our parameter creation, in our data tab again we go to the drop down adn click Create Parameter
+
+We call it SELECT YEAR and set it to an Integer Data type, edit the display format to our liking and only allopw values from the YEAR Calculated field that we made
 
 
+Now to have the list selection effect our data, we have to link it to the calculation
 
+Going back to our Calculated fields we replace the STATIC VALUE year that we first set, and change it to the Select Year parameter so that what is displayed will change depending on user selection.. 
 
 
   
