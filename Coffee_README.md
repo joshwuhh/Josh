@@ -106,6 +106,10 @@ This can be done by creating a **List Parameter** within Tableau with **Calculat
 
 I began this process but need to figure out why my data is not able to be shown in table format. 
 
+  _This was because the field for Year was NOT formatted as a DATE, corrected_
+
+  
+
 
 
 
