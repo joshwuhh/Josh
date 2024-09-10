@@ -1,8 +1,3 @@
-Downloaded Dataset from Kaggle for Seattle AirBNB rental history. 
-Comprised of three seperate CSV files for Dates of rental, Addresses, and reviews. 
-These were all combined into one XLS file and loaded into Tableau
-Listings is main table, inner joined with other two by ID = LISTING ID  because everything in listing will be in calendar/reviews by ID  
-
 
 ## Understanding the Data
 Most data is not needed for the visualizations such as Name of listing , Comments etc
@@ -20,7 +15,7 @@ Reviews - Information on reviews for each property.
 Calendar - Shows listing, date, Available (true if rented or false if not ), amount rented for 
       
 
-## Use Case  
+## Questions 
 If someone wanted to start a BNB business, What factors would they need to know? 
 1 How expensive is each Zip Code? 
 2 What are the best times for him to list it if he chose to also live in the home? 
@@ -29,6 +24,10 @@ If someone wanted to start a BNB business, What factors would they need to know?
 
 
 ## Process 
+Downloaded Dataset from Kaggle for Seattle AirBNB rental history. 
+Comprised of three seperate CSV files for Dates of rental, Addresses, and reviews. 
+These were all combined into one XLS file and loaded into Tableau
+Listings is main table, inner joined with other two by ID = LISTING ID  because everything in listing will be in calendar/reviews by ID  
 
 1. Began by comapring zip to price, changed measure of price to see AVG rather than SUM 
 ** Ordered this data and see that highest price zipcode is 98134 at $206 AVG **
