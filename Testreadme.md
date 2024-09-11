@@ -23,7 +23,12 @@ If someone wanted to start a BNB business, What factors would they need to know?
 4 Competition? 
 
 
-******* EDIT BELOW / DIFFERENT PROJECT *******
+
+******** 
+
+
+
+
 ### Steps followed 
 
 - Step 1 : Load data into Power BI Desktop, dataset is a csv file.
