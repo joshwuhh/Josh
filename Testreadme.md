@@ -32,7 +32,7 @@ If someone wanted to start a BNB business, What factors would they need to know?
 
 - Step 4 : We don't want to take into account data without specifications for home size so we exclude the column which shows NULL for Room count values
 
-- Step 5 : We finalize this by ordering the data from highest    AVG(PRICE) to lowest
+- Step 5 : We finalize this by ordering the data from highest AVG(PRICE) to lowest
 
 ![](Images/Airbnb%20zipcode%20Price.png)
 
@@ -43,6 +43,8 @@ We again utilize the ZIPCODE and AVG(PRICE) and switch the format to Map.
 
 We once again remove NULL values. 
 
+![](Images/Airbnbmap.png)
+
 - Step 8 : Next we create a simple line graph to display the SUM of rentals over the course of time in our dataset. We use the SUM(PRICE) and  DATE from our Calendar table.
 
  We adjust the DATE so it displays each week to get deeper insight into timing of market. 
@@ -51,21 +53,25 @@ We once again remove NULL values.
 
  We fix this by creating a filter on our DATE so only the end of 2016 is displayed. 
 
-- Step 10: Next we want to give the user information on what size property they should invest in. To do this we create a simple bar graph that uses the BEDROOMS parameter and AVG(PRICE) and arrange it in ascending order based on Price. 
+ ![](Images/Airbnbyear.png)
 
-- Step 11 : Finally, I would like to provide the potential investor with an idea on the market competition for the property sizes. To accomplish this I create a table that will show how many listings there are using a count of each individual property identifier (ID) and the BEDROOMS parameter. We keep this in order of ascending bedrooms. 
+- Step 10: Next we want to give the user information on what size property they should invest in. To do this we create a simple bar graph that uses the BEDROOMS parameter and AVG(PRICE) and arrange it in ascending order based on Price.
+
+  ![](Images/Airbnbroomprice.png)
+
+- Step 11 : Finally, I would like to provide the potential investor with an idea on the market competition for the property sizes. To accomplish this I create a table that will show how many listings there are using a count of each individual property identifier (ID) and the BEDROOMS parameter. We keep this in order of ascending bedrooms.
+
+![](Images/Airbnbcomeptition.png)
 
 - Step 12 : We combine all the worksheets made into a single dashboard so the user can get a clear and informative overview of all the information organized. This is then published to Tableau Public. 
 
 
 
- 
- 
-![Publish_Message](https://user-images.githubusercontent.com/102996550/174094520-3a845196-97e6-4d44-8760-34a64abc3e77.jpg)
 
-# Snapshot of Dashboard (Power BI Service)
+# Snapshot of Dashboard 
 
-![dashboard_snapo](https://user-images.githubusercontent.com/102996550/174096257-11f1aae5-203d-44fc-bfca-25d37faf3237.jpg)
+![](Images/Airbnbdashboard.png)
+
 
  
  # Report Snapshot (Power BI DESKTOP)
