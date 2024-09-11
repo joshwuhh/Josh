@@ -17,10 +17,11 @@ Consider occupying the space outside of these high traffic times to maximize pro
 
 ## Questions 
 If someone wanted to start a BNB business, What factors would they need to know? 
-> 1 How expensive is each Zip Code? 
-> 2 What are the best times for him to list it if he chose to also live in the home? 
-> 3 Bedrooms? 
-> 4 Competition? 
+
+ - How expensive is each Zip Code? 
+ - What are the best times for him to list it if he chose to also live in the home? 
+ - Bedrooms? 
+ - Competition? 
 
 
 
