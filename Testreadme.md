@@ -53,7 +53,9 @@ We once again remove NULL values.
 
 - Step 11 : Finally, I would like to provide the potential investor with an idea on the market competition for the property sizes. To accomplish this I create a table that will show how many listings there are using a count of each individual property identifier (ID) and the BEDROOMS parameter. We keep this in order of ascending bedrooms. 
 
-- Step 12 : We combine all the worksheets made into a single dashboard so the user can get a clear and informative overview of all the information organized. 
+- Step 12 : We combine all the worksheets made into a single dashboard so the user can get a clear and informative overview of all the information organized. This is then published to Tableau Public. 
+
+
 
  
  
