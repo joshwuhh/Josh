@@ -32,7 +32,9 @@ If someone wanted to start a BNB business, What factors would they need to know?
 
 - Step 4 : We don't want to take into account data without specifications for home size so we exclude the column which shows NULL for Room count values
 
-- Step 5 : We finalize this by ordering the data from highest    AVG(PRICE) to lowest  
+- Step 5 : We finalize this by ordering the data from highest    AVG(PRICE) to lowest
+
+![](images/Airbnb%20zipcode%20Price.png)
 
 - Step 6 : We continue to create another visualization to compliment the bar chart and assist the user make a decision on location by seeing the Zipcodes geographically: A Map.
 We again utilize the ZIPCODE and AVG(PRICE) and switch the format to Map. 
