@@ -17,123 +17,44 @@ Consider occupying the space outside of these high traffic times to maximize pro
 
 ## Questions 
 If someone wanted to start a BNB business, What factors would they need to know? 
-
- - How expensive is each Zip Code? 
- - What are the best times for him to list it if he chose to also live in the home? 
- - Bedrooms? 
- - Competition? 
-
-
-
-******** 
-
-
-
+1 How expensive is each Zip Code? 
+2 What are the best times for him to list it if he chose to also live in the home? 
+3 Bedrooms? 
+4 Competition? 
 
 ### Steps followed 
 
-- Step 1 : Load data into Power BI Desktop, dataset is a csv file.
-- Step 2 : Open power query editor & in view tab under Data preview section, check "column distribution", "column quality" & "column profile" options.
-- Step 3 : Also since by default, profile will be opened only for 1000 rows so you need to select "column profiling based on entire dataset".
-- Step 4 : It was observed that in none of the columns errors & empty values were present except column named "Arrival Delay".
-- Step 5 : For calculating average delay time, null values were not taken into account as only less than 1% values are null in this column(i.e column named "Arrival Delay") 
-- Step 6 : In the report view, under the view tab, theme was selected.
-- Step 7 : Since the data contains various ratings, thus in order to represent ratings, a new visual was added using the three ellipses in the visualizations pane in report view. 
-- Step 8 : Visual filters (Slicers) were added for four fields named "Class", "Customer Type", "Gate Location" & "Type of travel".
-- Step 9 : Two card visuals were added to the canvas, one representing average departure delay in minutes & other representing average arrival delay in minutes.
-           Using visual level filter from the filters pane, basic filtering was used & null values were unselected for consideration into average calculation.
-           
-           Although, by default, while calculating average, blank values are ignored.
-- Step 10 : A bar chart was also added to the report design area representing the number of satisfied & neutral/unsatisfied customers. While creating this visual, field named "Gender" was also added to the Legends bucket, thus number of customers are also seggregated according the gender. 
-- Step 11 : Ratings Visual was used to represent different ratings mentioned below,
+- Step 1 : Collect seperate CSV files into a single XLS
 
-  (a) Baggage Handling
+- Step 2 : Load XLS into Tableau and join tables with appropriate identifier  
 
-  (b) Check-in Services
-  
-  (c) Cleanliness
-  
-  (d) Ease of online booking
-  
-  (e) Food & Drink
-  
-  (f) In-flight Entertainment
+- Step 3 : Began bar graph creation by comparing ZIP CODE on our X axis to PRICE on the Y. We utilize color at for the zipcode and change the measure of Price to AVG.
 
-  (g) In-flight Service
-  
-  (h) In-flight wifi service
-  
-  (i) Leg Room service
-  
-  (j) On-board service
-  
-  (k) Online boarding
-  
-  (l) Seat comfort
-  
-  (m) Departure & arrival time convenience
-  
-In our dataset, Some parameters were assigned value 0, representing those parameters are not applicable for some customers.
+- Step 4 : We don't want to take into account data without specifications for home size so we exclude the column which shows NULL for Room count values
 
-All these values have been ignored while calculating average rating for each of the parameters mentioned above.
+- Step 5 : We finalize this by ordering the data from highest    AVG(PRICE) to lowest  
 
-- Step 12 : In the report view, under the insert tab, two text boxes were added to the canvas, in one of them name of the airlines was mentioned & in the other one company's tagline was written.
-- Step 13 : In the report view, under the insert tab, using shapes option from elements group a rectangle was inserted & similarly using image option company's logo was added to the report design area. 
-- Step 14 : Calculated column was created in which, customers were grouped into various age groups.
+- Step 6 : We continue to create another visualization to compliment the bar chart and assist the user make a decision on location by seeing the Zipcodes geographically: A Map.
+We again utilize the ZIPCODE and AVG(PRICE) and switch the format to Map. 
 
-for creating new column following DAX expression was written;
-       
-        Age Group = 
-        
-        if(airline_passenger_satisfaction[Age]<=25, "0-25 (25 included)",
-        
-        if(airline_passenger_satisfaction[Age]<=50, "25-50 (50 included)",
-        
-        if(airline_passenger_satisfaction[Age]<=75, "50-75 (75 included)",
-        
-        "75-100 (100 included)")))
-        
-Snap of new calculated column ,
+- Step 7 : We follow the same color template as our previous chart and apply it to the Map by dragging the parameter into the Color Mark, and apply a label for the ZIP and PRICE so it is easier to understand. 
 
-![Snap_1](https://user-images.githubusercontent.com/102996550/174089602-ab834a6b-62ce-4b62-8922-a1d241ec240e.jpg)
+We once again remove NULL values. 
 
-        
-- Step 15 : New measure was created to find total count of customers.
+- Step 8 : Next we create a simple line graph to display the SUM of rentals over the course of time in our dataset. We use the SUM(PRICE) and  DATE from our Calendar table.
 
-Following DAX expression was written for the same,
-        
-        Count of Customers = COUNT(airline_passenger_satisfaction[ID])
-        
-A card visual was used to represent count of customers.
+ We adjust the DATE so it displays each week to get deeper insight into timing of market. 
 
-![Snap_Count](https://user-images.githubusercontent.com/102996550/174090154-424dc1a4-3ff7-41f8-9617-17a2fb205825.jpg)
+- Step 9 : What can be noticed is that the graph skews downward towards the end of the year, this is because of the lack of data for the start of the following year.
 
-        
- - Step 16 : New measure was created to find  % of customers,
- 
- Following DAX expression was written to find % of customers,
- 
-         % Customers = (DIVIDE(airline_passenger_satisfaction[Count of Customers], 129880)*100)
- 
- A card visual was used to represent this perecntage.
- 
- Snap of % of customers who preferred business class
- 
- ![Snap_Percentage](https://user-images.githubusercontent.com/102996550/174090653-da02feb4-4775-4a95-affb-a211ca985d07.jpg)
+ We fix this by creating a filter on our DATE so only the end of 2016 is displayed. 
 
- 
- - Step 17 : New measure was created to calculate total distance travelled by flights & a card visual was used to represent total distance.
- 
- Following DAX expression was written to find total distance,
- 
-         Total Distance Travelled = SUM(airline_passenger_satisfaction[Flight Distance])
-    
- A card visual was used to represent this total distance.
- 
- 
- ![Snap_3](https://user-images.githubusercontent.com/102996550/174091618-bf770d6c-34c6-44d4-9f5e-49583a6d5f68.jpg)
- 
- - Step 18 : The report was then published to Power BI Service.
+- Step 10: Next we want to give the user information on what size property they should invest in. To do this we create a simple bar graph that uses the BEDROOMS parameter and AVG(PRICE) and arrange it in ascending order based on Price. 
+
+- Step 11 : Finally, I would like to provide the potential investor with an idea on the market competition for the property sizes. To accomplish this I create a table that will show how many listings there are using a count of each individual property identifier (ID) and the BEDROOMS parameter. We keep this in order of ascending bedrooms. 
+
+- Step 12 : We combine all the worksheets made into a single dashboard so the user can get a clear and informative overview of all the information organized. 
+
  
  
 ![Publish_Message](https://user-images.githubusercontent.com/102996550/174094520-3a845196-97e6-4d44-8760-34a64abc3e77.jpg)
