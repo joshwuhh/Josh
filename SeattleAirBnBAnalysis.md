@@ -1,5 +1,13 @@
 # Seattle AirBNB Project
 
+# Table of Contents
+- [Understanding the Data](#Understanding-the-Data)
+- [Problem Statement](#Problem-Statement)
+- [Questions](#Questions)
+- [Process](#Steps-followed)
+- [The Dashboard](#Snapshot-of-Dashboard)
+- [Insights](#Insights)
+
 ### Dashboard Link : https://public.tableau.com/views/AirBnBDashboardProject_17259158037870/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 ## Understanding the Data
