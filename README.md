@@ -15,7 +15,8 @@ I'm Joshuah from New Jersey! I do development and data analytics with an emphasi
 - ⚡ Fun fact: I play eletric guitar and love to cook! I even grow my own herbs in my apartment!
 
 ## Projects
-
+[ Coffee Import analysis ] 
+[ AirBNB Seattle Analysis ] 
 
 ## Connect with me!
 
