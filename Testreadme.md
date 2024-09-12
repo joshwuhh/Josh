@@ -2,6 +2,22 @@
 
 ### Dashboard Link : https://public.tableau.com/views/AirBnBDashboardProject_17259158037870/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
+## Understanding the Data
+Most data is not needed for the visualizations such as Name of listing , Comments etc
+There are approx. 3.6k locations in Listings 
+  1 Million entries in Calendar
+
+
+Listings - The information on the actual rental (Bedrooms, Location, Price per day, Etc) 
+Reviews - Information on reviews for each property. 
+     THREE ID's ARE PRESENT. 
+      Listing ID : Property Identification from Listing table
+      ID : Identification of specific review
+      Reviewer ID: Person leaving review 
+
+Calendar - Shows listing, date, Available (true if rented or false if not ), amount rented for 
+      
+
 ## Problem Statement
 
 This dashboard will help prospective property owners understand the market for AirBnB rentals in the Seattle area. By analysing average prices of rentals by zip code and size, insights can be made on if the user should start or expand their business to this territory. It will help the user understand the amount they can expect to make given the zip code and size of rental as well as what time of year has the hgihest sum of sales based on PY data.
