@@ -20,8 +20,9 @@ I'm Joshuah from New Jersey! I do development and data analytics with an emphasi
   My background as a retail director has honed my ability to adapt to new domains quickly and cement the mental relationship between data, business leaders and clients. This combined with my technical skills which I utilize consistently to provide feedback to country product leaders, allow me to find success within my role. 
 
 ## Projects
-[ Coffee Import analysis ] 
-[ AirBNB Seattle Analysis ] 
+- [ Coffee Import analysis ] 
+- [ AirBNB Seattle Analysis ]
+- [Excel 
 
 ## Connect with me!
 
