@@ -22,7 +22,7 @@ I'm Joshuah from New Jersey! I do development and data analytics with an emphasi
 ## Projects
 - [ Coffee Import analysis ] 
 - [ AirBNB Seattle Analysis ]
-- [Excel 
+- [Store Transaction Analysis] Current
 
 ## Connect with me!
 
