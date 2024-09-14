@@ -121,6 +121,6 @@ It must be noted however that it is not a straight line of increase as the 5 Bed
 
  Similarly we see peak sales in Fall/Winter from October to December as we see sales steadily hold 1.8M and peak at 2M in the year end 
  
- This illuminates a time span which should be held preferential when it comes to advertising and or preparing the property for rental.  
+ This gives a time frame which should be held preferential when it comes to advertising and or preparing the property for rental.  
  
 
