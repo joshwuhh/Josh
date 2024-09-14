@@ -12,7 +12,12 @@ I'm Joshuah from New Jersey! I do development and data analytics with an emphasi
 ##  About me 
 - 🔭 I’m currently working on a some analysis projects and have certifications from both CompTIA and Google in Analytics!
 - 🌱 I’m currently learning deeply about excel and tableau. 
-- ⚡ Fun fact: I play eletric guitar and love to cook! I even grow my own herbs in my apartment!
+- ⚡ Fun fact: I play eletric guitar, love to cook!
+
+- Coming from a dynamic retail enviornment, I have an instilled passion for data. I ahve a deep understanding of how data can fuel the growth of a business and highlight the success of a product.
+  My day to day work requires me to gain meaningful insights from my store's KPI's, utilizing our retail dashboard to track metrics from success rates of products to week over week comparisons of sales to create impactful action plans to further growth.
+
+  My background as a retail director has honed my ability to adapt to new domains quickly and cement the mental relationship between data, business leaders and clients. This combined with my technical skills which I utilize consistently to provide feedback to country product leaders, allow me to find success within my role. 
 
 ## Projects
 [ Coffee Import analysis ] 
@@ -29,6 +34,7 @@ I'm Joshuah from New Jersey! I do development and data analytics with an emphasi
 
 
 
+<!---
 ## Some important things to consider in the analysis process: 
 - Metrics need to be clearly defined
 - Data findings should be organized ina logical step by step order
@@ -44,6 +50,6 @@ Some characteristics to have :
 - Ability to work independently to investigate and mine for interesting insights
 - Product and business growth mindset
 - Technical Skills
-
+--->
   
 
