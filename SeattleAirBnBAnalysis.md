@@ -12,8 +12,8 @@
 
 ## Understanding the Data
 Most data is not needed for the visualizations such as Name of listing , Comments etc
-There are approx. 3.6k locations in Listings 
-  1 Million entries in Calendar
+There are approx 3.6k locations (properties) in Listings 
+  and 1 Million entries (transactions) in Calendar which 
 
 
 Listings - The information on the actual rental (Bedrooms, Location, Price per day, Etc) 
